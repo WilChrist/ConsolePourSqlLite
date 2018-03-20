@@ -10,6 +10,7 @@ namespace ConsolePourSqlLite
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("That Me!!!!!!!");
         }
     }
 }
