@@ -23,5 +23,19 @@ namespace ConsolePourSqlLite
         }
 
         public SQLiteConnection Connection { get => connection; set => connection = value; }
+        public void OpenConnection()
+        {
+            if (connection.State != System.Data.ConnectionState.Open)
+            {
+                Connection.Open();
+            }
+        }
+        public void CloseConnection()
+        {
+            if (connection.State != System.Data.ConnectionState.Closed)
+            {
+                Connection.Close();
+            }
+        }
     }
 }

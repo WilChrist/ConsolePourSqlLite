@@ -73,6 +73,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database.cs" />
+    <Compile Include="Etudiant.cs" />
+    <Compile Include="EtudiantOperationImpl.cs" />
+    <Compile Include="IEtudiantOperation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
