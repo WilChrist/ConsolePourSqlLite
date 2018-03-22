@@ -75,7 +75,10 @@
     <Compile Include="Database.cs" />
     <Compile Include="Etudiant.cs" />
     <Compile Include="EtudiantOperationImpl.cs" />
+    <Compile Include="filiere.cs" />
+    <Compile Include="FilieresOperationImpl.cs" />
     <Compile Include="IEtudiantOperation.cs" />
+    <Compile Include="IFiliereOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

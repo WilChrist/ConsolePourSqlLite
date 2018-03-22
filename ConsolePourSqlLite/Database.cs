@@ -8,6 +8,7 @@ namespace ConsolePourSqlLite
 
         public Database()
         {
+            // name of the database to use
             Connection = new SQLiteConnection("Data Source=database.sqlite3");
             if (!File.Exists("./database.sqlite3"))
             {
